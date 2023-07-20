@@ -1,6 +1,26 @@
 # chatGPTSTEM2023
 
+# chatGPTWhisperAPI4JNano
+Utilizes openAI API for Whisper and chatGPT targeting a Jetson Nano
 
+# Assistant on Jetson Nano Developer Kit
+
+This repository contains the code and setup instructions to run a voice-activated assistant on a Jetson Nano Developer Kit.
+
+## Prerequisites
+
+- NVIDIA Jetson Nano Developer Kit
+- Microphone connected to the Jetson Nano
+- JetPack installed on the Jetson Nano
+
+## Installation
+
+1. Install JetPack on the Jetson Nano Developer Kit:
+   - From a separate computer download the image to an sd card:
+   -    https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
+
+X. Download .zip file from github repo and extract to the following location
+   - user\Projects\STEM2023
 
 ﻿
 # Basic system update and install of dependencies for Whisper and chatGPT on Jetson Nano

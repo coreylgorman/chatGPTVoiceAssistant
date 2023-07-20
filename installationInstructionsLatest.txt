@@ -75,6 +75,8 @@ User=pearl
 WantedBy=multi-user.target" | sudo tee /etc/systemd/system/assistant.service
 
 # Save and Exit
+
+
 sudo systemctl enable assistant.service
 sudo systemctl start assistant.service
 

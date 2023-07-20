@@ -26,7 +26,7 @@ X. Download .zip file from github repo and extract to the following location
 
 ﻿
 # Basic system update and install of dependencies for Whisper and chatGPT on Jetson Nano
-
+# Installation instructions "installationInstructionsLatest.txt" may be easier to read and has correct formatting
 
 sudo apt-get update
 sudo apt install nano

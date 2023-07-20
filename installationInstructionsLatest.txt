@@ -93,7 +93,8 @@ sudo systemctl start assistant.service
 
 echo "All done!"
 
-
+# If it seems like microphone or speakers are not working, check the sound settings
+# Speaker icon in top right corner
 
 
 Here are some useful commands for managing and troubleshooting services in Linux:

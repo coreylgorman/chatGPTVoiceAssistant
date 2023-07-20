@@ -1,4 +1,6 @@
-# chatGPTSTEM2023
+# chatGPTVoiceAssistant
+
+# Originally developed for Pearl STEM Academy 2023
 
 # chatGPTWhisperAPI4JNano
 Utilizes openAI API for Whisper and chatGPT targeting a Jetson Nano

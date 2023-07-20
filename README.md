@@ -21,7 +21,7 @@ This repository contains the code and setup instructions to run a voice-activate
    - From a separate computer download the image to an sd card:
    -    https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
-X. Download .zip file from github repo and extract to the following location (remove "-main" from .zip file name)
+X. Download .zip file from github repo and extract to the following location (remove "-main" from .zip file name before extracting)
    - user\Projects\STEM2023
 
 ﻿

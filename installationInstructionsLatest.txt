@@ -35,7 +35,7 @@ echo "Creating a new virtual environment using Pyenv..."
 pyenv virtualenv 3.9.16 myenv
 
 #change directory to Project folder
-cd Projects/STEM2023/chatGPTWhisperAPI4JNano-main
+cd Projects/STEM2023/chatGPTVoiceAssistant
 
 echo "Activating the virtual environment..."
 pyenv activate myenv
@@ -72,16 +72,10 @@ Restart=always
 User=pearl
 
 [Install]
-WantedBy=multi-user.target" | sudo tee /etc/systemd/system/assistant.service
+WantedBy=multi-user.target
 
-# Save and Exit
+# Save and Exit --> Save the file and Exit (ctl+x, ctl+y, enter)
 
-
-sudo systemctl enable assistant.service
-sudo systemctl start assistant.service
-
-
-# Save the file and Exit (ctl+x, ctl+y, enter)
 
 # Set the permissions for the service file:
 sudo chmod 644 /etc/systemd/system/assistant.service
